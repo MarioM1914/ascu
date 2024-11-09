@@ -8,7 +8,7 @@ export default function MiSmo() {
         <div className="w-full h- md:max-w-full mt-16">
           <div className="flex flex-col md:flex-row bg-white rounded-lg shadow-md">
             <img
-              src="/public/assets/card1.jpg"
+              src="/assets/card1.jpg"
               alt="Image"
               className="h-72 md:w-1/2 object-cover rounded-tl-lg rounded-tr-lg md:rounded-bl-lg md:rounded-tr-none"
             />
@@ -49,7 +49,7 @@ export default function MiSmo() {
               </p>
             </div>
             <img
-              src="/public/assets/card2.jpg"
+              src="/assets/card2.jpg"
               alt="Image"
               className="h-72 order-1 md:order-2 md:w-1/2 object-fit rounded-tr-lg rounded-tl-lg md:rounded-br-lg md:rounded-tl-none"
             />
@@ -60,7 +60,7 @@ export default function MiSmo() {
         <div className="w-full h- md:max-w-full mt-16 mb-16">
           <div className="flex flex-col md:flex-row bg-white rounded-lg shadow-md">
             <img
-              src="/public/assets/card3.jpg"
+              src="/assets/card3.jpg"
               alt="Image"
               className="h-72 md:w-1/2 object-cover rounded-tl-lg rounded-tr-lg md:rounded-bl-lg md:rounded-tr-none"
             />
