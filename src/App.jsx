@@ -6,13 +6,11 @@ import Header from "./components/Header";
 export default function App() {
   return (
     <>
-      <div className="w-[80%] m-auto">
         <Header />
         <Routes>
           <Route path="/" element={<Pocetna />} />
           <Route path="/mi-smo" element={<MiSmo />} />
         </Routes>
-      </div>
     </>
   );
 }
