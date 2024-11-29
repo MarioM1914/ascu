@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
+import { FaRegFaceSmileWink } from "react-icons/fa6";
 
 export default function Pocetna() {
   return (
@@ -12,78 +13,171 @@ export default function Pocetna() {
         text="Novi val popularizacije maritimne kulture i sportskog jedrenja"
       />
 
-      {/* Card 1 */}
-      <div className="flex flex-wrap">
-        <div className="w-full h- md:max-w-full mt-16">
-          <div className="flex flex-col md:flex-row bg-white rounded-lg shadow-md">
-            <img
-              src="/assets/card1.jpg"
-              alt="Image"
-              className="h-72 md:w-1/2 object-cover rounded-tl-lg rounded-tr-lg md:rounded-bl-lg md:rounded-tr-none"
-            />
-            <div className="md:w-1/2 flex flex-wrap justify-start items-center pl-6 pt-4 pb-4 mx-3">
-              <h1 className="text-gray-700 uppercase text-3xl md:text-5xl">
-                Mi smo ...
-              </h1>
-              <p className="text-gray-700">
-                <span className="font-bold text-blue-400">AJK Universitas</span>{" "}
-                je udruga Sveučilišta u Splitu osnovana s ciljem{" "}
-                <span className="font-bold text-blue-400">
-                  popularizacije maritimne kulture i razvoja
-                </span>{" "}
-                sportsko-rekreativnog jedrenja među studentima te promocije
-                Sveučilišta kao{" "}
-                <span className="font-bold text-blue-400">atraktivne</span>{" "}
-                destinacije za studiranje.
-              </p>
-            </div>
+      <div className="relative">
+        <img
+          src="/assets/card2.jpg"
+          alt="Image"
+          className="w-full h-screen object-cover"
+        />
+        <div className="absolute top-3/4 lg:top-1/4 lg:right-0 flex flex-wrap justify-start items-center mr-8">
+          <div className="bg-white p-4 rounded-xl w-[680px] h-[430px]">
+            <h1 className="text-gray-700 uppercase text-3xl pb-4">
+              Mi smo ...
+            </h1>
+            <p className="text-gray-700">
+              <span className="font-bold text-blue-400">AJK Universitas</span>{" "}
+              je udruga Sveučilišta u Splitu osnovana s ciljem{" "}
+              <span className="font-bold text-blue-400">
+                popularizacije maritimne kulture i razvoja
+              </span>{" "}
+              sportsko-rekreativnog jedrenja među studentima te promocije
+              Sveučilišta kao{" "}
+              <span className="font-bold text-blue-400">atraktivne</span>{" "}
+              destinacije za studiranje.
+            </p>
+            <br />
+            <p className="text-gray-700">
+              More i maritimna kultura sastavni su djelovi našeg identiteta s
+              kojim se dičimo. Plovidba je nedjeljivi dio maritimne kulture, no
+              ipak manje od 10% studenata je imalo priliku barem jednom
+              doživjeti plovidbu i jedrenje.
+            </p>
+            <br />
+            <p className="text-gray-700">
+              Unatoč činjenici da smo svjetski lideri u nautičkom turizmu i da
+              su nam marine pune jahti i brodica, našoj su dici plovidba i
+              jedrenje još uvijek nešto apstraktno i nedostižno.
+            </p>
+            <br />
+            <p className="text-gray-700">
+              <span className="font-bold text-blue-400">Naša misija</span> je
+              plovidbu i sportsko jedrenje{" "}
+              <span className="font-bold text-blue-400">učiniti dostupno</span>{" "}
+              svakom članu akademske zajednice.
+            </p>
           </div>
         </div>
+      </div>
 
-        {/* Card 2 */}
-        <div className="w-full max-w-full mt-16 mb-4">
-          <div className="flex flex-col md:flex-row bg-white rounded-lg shadow-md">
-            <div className="md:w-1/2 flex flex-wrap justify-start items-center pl-6 pt-4 pb-4 mx-3 order-2 md:order-1">
-              <p className="text-gray-700">
-                More i maritimna kultura sastavni su djelovi našeg identiteta s
-                kojim se dičimo. Plovidba je nedjeljivi dio maritimne kulture,
-                no ipak manje od 10% studenata je imalo priliku barem jednom
-                doživjeti plovidbu i jedrenje.
-              </p>
-              <br />
-              <p className="text-gray-700">
-                Unatoč činjenici da smo svjetski lideri u nautičkom turizmu i da
-                su nam marine pune jahti i brodica, našoj su dici plovidba i
-                jedrenje još uvijek nešto apstraktno i nedostižno.
-              </p>
+      <div className="w-full h-screen">
+        <h1 className="text-gray-700 uppercase text-3xl text-center py-4">
+          Naši projekti
+        </h1>
+        <div className="flex justify-center items-center">
+          <p className="text-center w-[50%] my-8">
+            U posljednje četiri godine u našim projektima učestvovalo je preko
+            1500 studenta, koji su sudjelovali na 102 jedriličarske regate i 674
+            sportsko - edukativne plovidbe a preplovili smo i preko 5000nm, što
+            je malo više nego od Splita do New Yorka, a tek smo krenuli{" "}
+            <FaRegFaceSmileWink className="inline" />
+          </p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 p-4 pt-8">
+          <div class="flex flex-col items-center">
+            <div class="w-40 h-40 rounded-full overflow-hidden mt-4">
+              <img
+                src="/assets/discoverySailing.jpg"
+                alt="Discovery Sailing image"
+                class="w-full h-full object-cover"
+              />
             </div>
-            <img
-              src="/assets/card2.jpg"
-              alt="Image"
-              className="h-72 order-1 md:order-2 md:w-1/2 object-fit rounded-tr-lg rounded-tl-lg md:rounded-br-lg md:rounded-tl-none"
-            />
+            <h1 class="text-lg text-center italic mt-4">
+              “Prvi doživljaj plovidbe i jedrenja” <br />
+              <span className="font-bold">Discovery Sailing</span>
+            </h1>
+            <p class="text-sm text-center text-gray-700 leading-loose mt-4">
+              * cilj projekta je omogućiti što većem broju studenata{" "}
+              <span className="font-bold">prvi</span> doživljaj plovidbe i
+              jedrenja te ih na taj način dodatno potaknuti za život s morem.
+              Projekt se sastoji od stručno vođenih rekreativnih i edukativnih
+              plovidbi na sportskoj jedrilici.
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center">
+            <div class="w-40 h-40 rounded-full overflow-hidden mt-4">
+              <img
+                src="/assets/skolaJedrenja.jpg"
+                alt="Škola jedrenja image"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <h1 class="text-lg text-center italic mt-4">
+              “Na krilima vjetra ja nastavljam ples” <br />
+              <span className="font-bold">ASCU Škola jedrenja</span>
+            </h1>
+            <p class="text-sm text-center text-gray-700 leading-loose mt-4">
+              * za one koji već sada znaju da je jedrenje njihov đir i žele
+              unaprijediti vlastita znanja i vještine. Jedina mogućnost da
+              kontinuirano guštaš, učiš i družiš se u plovidbi.
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center">
+            <div class="w-40 h-40 rounded-full overflow-hidden mt-4">
+              <img
+                src="/assets/ASCURegata.jpg"
+                alt="ASCU Regata image"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <h1 class="text-lg text-center italic mt-4">
+              “Citus, Altus, Fortus” <br />
+              <span className="font-bold">ASCU Regata</span>
+            </h1>
+            <p class="text-sm text-center text-gray-700 leading-loose mt-4">
+              * Projekt namijenjen već iskusnim jedriličarima i ambicioznim
+              “školarcima” s ciljem postizanja što boljih sportskih rezultata na
+              regatama diljem Jadrana i šire.
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center">
+            <div class="w-40 h-40 rounded-full overflow-hidden mt-4">
+              <img
+                src="/assets/dita.jpg"
+                alt="Đita image"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <h1 class="text-lg text-center italic mt-4">
+              “Neman tekst” <br />
+              <span className="font-bold">Đita</span>
+            </h1>
+            <p class="text-sm text-center text-gray-700 leading-loose mt-4">
+              * tjedan plovidbe, druženja i života na jedrilici sada više nije
+              tako nedostižan. Cilj projekta je višednevnu plovidbu učiniti
+              dostupnom studentima.
+            </p>
           </div>
         </div>
+        <div className="flex justify-end items-center my-4 pr-16">
+          <p className="text-md">
+            Želiš se prijaviti? Imaš pitanja? Pošalji poruku na naš <br />{" "}
+            Instagram profil...
+          </p>
+        </div>
+      </div>
 
-        {/* Card 3 */}
-        <div className="w-full h- md:max-w-full mt-16 mb-16">
-          <div className="flex flex-col md:flex-row bg-white rounded-lg shadow-md">
-            <img
-              src="/assets/card3.jpg"
-              alt="Image"
-              className="h-72 md:w-1/2 object-cover rounded-tl-lg rounded-tr-lg md:rounded-bl-lg md:rounded-tr-none"
-            />
-            <div className="md:w-1/2 flex flex-wrap justify-start items-center pl-6 pt-4 pb-4 mx-3">
-              <p className="text-gray-700 md:text-3xl">
-                <span className="font-bold text-blue-400">Naša misija</span> je
-                plovidbu i sportsko jedrenje{" "}
-                <span className="font-bold text-blue-400">
-                  učiniti dostupno
-                </span>{" "}
-                svakom članu akademske zajednice.
-              </p>
-            </div>
-          </div>
+      <div className="w-full h-screen">
+        <h1 className="text-gray-700 uppercase text-3xl text-center py-4 mt-4">
+          Partneri i Donatori
+        </h1>
+        <div className="flex justify-center items-center">
+          <p className="py-4 text-md">
+            Svi projekti sufinancirani su uz pomoć naših partnera i donatora. Da
+            bi nastavili širiti naš društveni utjecaj neophodna nam je i vaša
+            pomoć.
+            <br />
+            <br />
+            Priključite se{" "}
+            <span className="font-bold text-blue-400">Novom Valu</span> širenja
+            maritimne kulture i omogućimo našoj dici da se zaljube u more jer{" "}
+            <span className="font-bold text-blue-400">
+              More je onoga koji ga uživa
+            </span>
+            .
+          </p>
         </div>
       </div>
     </>
