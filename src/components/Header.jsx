@@ -9,11 +9,25 @@ export default function Header() {
           <h1 className="text-blue-700 font-bold text-sm sm:text-xl">ASCU</h1>
         </Link>
         <ul className="flex gap-4">
-          <Link to='/'>
-            <li className="text-blue-700 font-medium hover:text-slate-500">Početna</li>
+          <Link to="/">
+            <li className="text-blue-700 font-medium hover:text-slate-500">
+              Početna
+            </li>
           </Link>
-          <Link to='/mi-smo'>
-            <li className="text-blue-700 font-medium hover:text-slate-500">Mi Smo</li>
+          <Link to="/mi-smo">
+            <li className="text-blue-700 font-medium hover:text-slate-500">
+              Mi Smo
+            </li>
+          </Link>
+          <Link to="/nasi-projekti">
+            <li className="text-blue-700 font-medium hover:text-slate-500">
+              Projekti
+            </li>
+          </Link>
+          <Link to="/partneri">
+            <li className="text-blue-700 font-medium hover:text-slate-500">
+              Partneri
+            </li>
           </Link>
         </ul>
       </div>
