@@ -59,7 +59,7 @@ export default function Pocetna() {
         </div>
       </div>
 
-      <div className="w-full h-screen">
+      <div className="w-full min-h-screen">
         <h1 className="text-gray-700 uppercase text-3xl text-center py-4">
           Naši projekti
         </h1>
@@ -73,8 +73,8 @@ export default function Pocetna() {
           </p>
         </div>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 p-4 pt-8">
-          <div class="flex flex-col items-center">
-            <div class="w-40 h-40 rounded-full overflow-hidden mt-4">
+          <div class="flex flex-col items-center bg-blue-100 rounded-lg">
+            <div class="w-[96%] h-40 rounded-lg overflow-hidden mt-1.5">
               <img
                 src="/assets/discoverySailing.jpg"
                 alt="Discovery Sailing image"
@@ -94,8 +94,8 @@ export default function Pocetna() {
             </p>
           </div>
 
-          <div class="flex flex-col items-center">
-            <div class="w-40 h-40 rounded-full overflow-hidden mt-4">
+          <div class="flex flex-col items-center bg-red-100 rounded-lg">
+            <div class="w-[96%] h-40 rounded-lg overflow-hidden mt-1.5">
               <img
                 src="/assets/skolaJedrenja.jpg"
                 alt="Škola jedrenja image"
@@ -113,8 +113,8 @@ export default function Pocetna() {
             </p>
           </div>
 
-          <div class="flex flex-col items-center">
-            <div class="w-40 h-40 rounded-full overflow-hidden mt-4">
+          <div class="flex flex-col items-center bg-green-100 rounded-lg">
+            <div class="w-[96%] h-40 rounded-lg overflow-hidden mt-1.5">
               <img
                 src="/assets/ASCURegata.jpg"
                 alt="ASCU Regata image"
@@ -132,8 +132,8 @@ export default function Pocetna() {
             </p>
           </div>
 
-          <div class="flex flex-col items-center">
-            <div class="w-40 h-40 rounded-full overflow-hidden mt-4">
+          <div class="flex flex-col items-center bg-rose-100 rounded-lg">
+            <div class="w-[96%] h-40 rounded-lg overflow-hidden mt-1.5">
               <img
                 src="/assets/dita.jpg"
                 alt="Đita image"
@@ -151,20 +151,22 @@ export default function Pocetna() {
             </p>
           </div>
         </div>
-        <div className="flex justify-end items-center my-4 pr-16">
-          <p className="text-md">
-            Želiš se prijaviti? Imaš pitanja? Pošalji poruku na naš <br />{" "}
-            Instagram profil...
-          </p>
+        <div className="flex justify-center items-center my-4 pr-16 bg-blue-100 rounded-lg">
+          <div className="w-[96%] ">
+            <p className="text-md">
+              Želiš se prijaviti? Imaš pitanja? Pošalji poruku na naš <br />{" "}
+              Instagram profil...
+            </p>
+          </div>
         </div>
       </div>
 
-      <div className="w-full h-screen">
+      <div className="w-full min-h-screen">
         <h1 className="text-gray-700 uppercase text-3xl text-center py-4 mt-4">
           Partneri i Donatori
         </h1>
         <div className="flex justify-center items-center">
-          <p className="py-4 text-md">
+          <p className="py-4 text-md text-center">
             Svi projekti sufinancirani su uz pomoć naših partnera i donatora. Da
             bi nastavili širiti naš društveni utjecaj neophodna nam je i vaša
             pomoć.

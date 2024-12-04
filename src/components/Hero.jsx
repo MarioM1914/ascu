@@ -8,7 +8,7 @@ function Hero(props) {
           <img
             src={props.heroImg}
             alt="HeroImg"
-            className="object-cover w-full h-full rounded-lg"
+            className="object-cover w-full h-full"
           />
         </div>
         <div className="absolute inset-0 top-0 flex justify-center items-start pt-20">
