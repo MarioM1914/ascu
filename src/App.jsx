@@ -11,7 +11,7 @@ export default function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Pocetna />} />
-        <Route path="/mi-smo" element={<ONama />} />
+        <Route path="/o-nama" element={<ONama />} />
         <Route path="/nasi-projekti" element={<Projekti />} />
         <Route path="/partneri" element={<Partneri />} />
       </Routes>
