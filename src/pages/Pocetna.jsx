@@ -20,8 +20,10 @@ export default function Pocetna() {
           className="w-full h-screen object-cover"
         />
         <div className="absolute top-3/4 lg:top-1/4 lg:right-0 flex flex-wrap justify-start items-center mr-8">
-          <div className="bg-white p-4 rounded-xl w-[680px] h-[490px]">
-            <h1 className="text-gray-700 uppercase text-3xl pb-4">O nama</h1>
+          <div className="bg-white p-4 rounded-xl w-[680px] h-[495px] font-replyRegular">
+            <h1 className="font-boogyBrutRegular tracking-widest text-gray-700 text-5xl pb-4">
+              O nama
+            </h1>
             <p className="text-gray-700">
               <span className="font-bold text-blue-400">AJK Universitas</span>{" "}
               je udruga Sveučilišta u Splitu osnovana s ciljem{" "}
@@ -64,11 +66,11 @@ export default function Pocetna() {
       </div>
 
       <div className="w-full min-h-screen">
-        <h1 className="text-gray-700 uppercase text-3xl text-center py-4">
+        <h1 className="font-boogyBrutRegular tracking-widest text-gray-700 text-5xl text-center py-4">
           Naši projekti
         </h1>
         <div className="flex justify-center items-center">
-          <p className="text-center w-[50%] my-8">
+          <p className="font-replyRegular text-center w-[50%] my-8">
             U posljednje četiri godine u našim projektima učestvovalo je preko
             1500 studenta, koji su sudjelovali na 102 jedriličarske regate i 674
             sportsko - edukativne plovidbe a preplovili smo i preko 5000nm, što
@@ -77,7 +79,7 @@ export default function Pocetna() {
           </p>
         </div>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 p-4 pt-8">
-          <div class="flex flex-col items-center bg-blue-100 rounded-lg">
+          <div class="flex flex-col items-center bg-customBlue-light hover:bg-customBlue-dark text-black hover:text-white rounded-lg group">
             <div class="w-[96%] h-40 rounded-lg overflow-hidden mt-1.5">
               <img
                 src="/assets/discoverySailing.jpg"
@@ -85,11 +87,13 @@ export default function Pocetna() {
                 class="w-full h-full object-cover"
               />
             </div>
-            <h1 class="text-lg text-center italic mt-4">
+            <h1 class="font-replyRegular text-lg text-center italic mt-4 group-hover:text-white">
               “Prvi doživljaj plovidbe i jedrenja” <br />
-              <span className="font-bold">Discovery Sailing</span>
+              <span className="font-boogyBrutRegular tracking-widest font-bold">
+                Discovery Sailing
+              </span>
             </h1>
-            <p class="text-sm text-center text-gray-700 leading-loose mt-4">
+            <p class="font-replyRegular text-sm text-center text-black leading-loose mt-4 group-hover:text-white">
               * cilj projekta je omogućiti što većem broju studenata{" "}
               <span className="font-bold">prvi</span> doživljaj plovidbe i
               jedrenja te ih na taj način dodatno potaknuti za život s morem.
@@ -98,7 +102,7 @@ export default function Pocetna() {
             </p>
           </div>
 
-          <div class="flex flex-col items-center bg-red-100 rounded-lg">
+          <div class="flex flex-col items-center bg-customRose-light hover:bg-customRose-dark text-black hover:text-white rounded-lg group">
             <div class="w-[96%] h-40 rounded-lg overflow-hidden mt-1.5">
               <img
                 src="/assets/skolaJedrenja.jpg"
@@ -106,18 +110,20 @@ export default function Pocetna() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <h1 class="text-lg text-center italic mt-4">
+            <h1 class="font-replyRegular text-lg text-center italic mt-4 group-hover:text-white">
               “Na krilima vjetra ja nastavljam ples” <br />
-              <span className="font-bold">ASCU Škola jedrenja</span>
+              <span className="font-boogyBrutRegular tracking-widest font-bold">
+                ASCU Škola jedrenja
+              </span>
             </h1>
-            <p class="text-sm text-center text-gray-700 leading-loose mt-4">
+            <p class="font-replyRegular text-sm text-center text-black leading-loose mt-4 group-hover:text-white">
               * za one koji već sada znaju da je jedrenje njihov đir i žele
               unaprijediti vlastita znanja i vještine. Jedina mogućnost da
               kontinuirano guštaš, učiš i družiš se u plovidbi.
             </p>
           </div>
 
-          <div class="flex flex-col items-center bg-green-100 rounded-lg">
+          <div class="flex flex-col items-center bg-customRed-light hover:bg-customRed-dark text-black hover:text-white rounded-lg group">
             <div class="w-[96%] h-40 rounded-lg overflow-hidden mt-1.5">
               <img
                 src="/assets/ASCURegata.jpg"
@@ -125,18 +131,20 @@ export default function Pocetna() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <h1 class="text-lg text-center italic mt-4">
+            <h1 class="font-replyRegular text-lg text-center italic mt-4 group-hover:text-white">
               “Citus, Altus, Fortus” <br />
-              <span className="font-bold">ASCU Regata</span>
+              <span className="font-boogyBrutRegular tracking-widest font-bold">
+                ASCU Regata
+              </span>
             </h1>
-            <p class="text-sm text-center text-gray-700 leading-loose mt-4">
+            <p class="font-replyRegular text-sm text-center text-black leading-loose mt-4 group-hover:text-white">
               * Projekt namijenjen već iskusnim jedriličarima i ambicioznim
               “školarcima” s ciljem postizanja što boljih sportskih rezultata na
               regatama diljem Jadrana i šire.
             </p>
           </div>
 
-          <div class="flex flex-col items-center bg-rose-100 rounded-lg">
+          <div class="flex flex-col items-center bg-customGreen-light hover:bg-customGreen-dark text-black hover:text-white rounded-lg group">
             <div class="w-[96%] h-40 rounded-lg overflow-hidden mt-1.5">
               <img
                 src="/assets/dita.jpg"
@@ -144,11 +152,13 @@ export default function Pocetna() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <h1 class="text-lg text-center italic mt-4">
+            <h1 class="font-replyRegular text-lg text-center italic mt-4 group-hover:text-white">
               “Neman tekst” <br />
-              <span className="font-bold">Đita</span>
+              <span className="font-boogyBrutRegular tracking-widest font-bold">
+                Đita
+              </span>
             </h1>
-            <p class="text-sm text-center text-gray-700 leading-loose mt-4">
+            <p class="font-replyRegular text-sm text-center text-black leading-loose mt-4 group-hover:text-white">
               * tjedan plovidbe, druženja i života na jedrilici sada više nije
               tako nedostižan. Cilj projekta je višednevnu plovidbu učiniti
               dostupnom studentima.
@@ -166,11 +176,11 @@ export default function Pocetna() {
       </div>
 
       <div className="w-full min-h-screen">
-        <h1 className="text-gray-700 uppercase text-3xl text-center py-4 mt-4">
+        <h1 className="font-boogyBrutRegular tracking-widest text-gray-700 text-5xl text-center py-4 mt-4">
           Partneri i Donatori
         </h1>
         <div className="flex justify-center items-center">
-          <p className="py-4 text-md text-center">
+          <p className="font-replyRegular py-4 text-md text-center">
             Svi projekti sufinancirani su uz pomoć naših partnera i donatora. Da
             bi nastavili širiti naš društveni utjecaj neophodna nam je i vaša
             pomoć.

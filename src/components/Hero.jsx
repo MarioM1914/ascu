@@ -17,7 +17,7 @@ function Hero(props) {
           </p>
         </div>
         <div className="absolute inset-0 flex flex-col justify-end items-center pb-40">
-          <h1 className="font-boogyBrutRegular text-white text-center font-bold uppercase text-2xl sm:text-3xl md:text-5xl pb-2 mb-8">
+          <h1 className="font-boogyBrutRegular tracking-widest text-white text-center font-bold uppercase text-2xl sm:text-3xl md:text-5xl pb-2 mb-8">
             {props.title}
           </h1>
           <p className="font-replyRegular text-white text-center text-sm sm:text-lg md:text-2xl mx-12 mt-4">
