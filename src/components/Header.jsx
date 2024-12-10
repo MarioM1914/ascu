@@ -42,25 +42,38 @@ export default function Header() {
     <header>
       <div className="flex justify-between items-center mx-auto p-3">
         {/* Logos */}
-        <Link to="/">
-          <div className="flex items-center gap-4">
+
+        <div className="flex items-center gap-4">
+          <a
+            href="https://www.unist.hr/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src="/assets/UnistLogo.jpg"
               alt="UnistLogoImage"
               className="object-contain w-16 sm:w-24 lg:w-32 h-auto"
             />
+          </a>
+          <a
+            href="https://www.pfst.unist.hr/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src="/assets/PFSTLogo.jpg"
               alt="PFSTLogoImage"
               className="object-contain w-16 sm:w-24 lg:w-32 h-auto"
             />
+          </a>
+          <Link to="/">
             <img
               src="/assets/AJKLogo.png"
               alt="AJKLogoImage"
               className="object-contain w-16 sm:w-24 lg:w-32 h-auto"
             />
-          </div>
-        </Link>
+          </Link>
+        </div>
 
         {/* Menu bar */}
         <div className="sm:hidden flex items-center p-2 absolute right-4 fixed-position">
