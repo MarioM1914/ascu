@@ -70,7 +70,7 @@ export default function Pocetna() {
           Naši projekti
         </h1>
         <div className="flex justify-center items-center">
-          <p className="font-replyRegular text-center w-[50%] my-8">
+          <p className="font-replyRegular bg-customBrown-light rounded-lg p-4 text-center w-[50%] my-8">
             U posljednje četiri godine u našim projektima učestvovalo je preko
             1500 studenta, koji su sudjelovali na 102 jedriličarske regate i 674
             sportsko - edukativne plovidbe a preplovili smo i preko 5000nm, što
